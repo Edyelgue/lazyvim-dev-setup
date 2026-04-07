@@ -11,4 +11,4 @@ Setup completo para desenvolvimento com:
 ## 📦 Instalação
 
 ```bash
-git clone https://github.com/SEU_USUARIO/lazyvim-dev-setup
+git clone https://github.com/Edyelgue/lazyvim-dev-setup
