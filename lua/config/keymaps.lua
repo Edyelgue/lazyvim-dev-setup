@@ -1,0 +1,5 @@
+vim.keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>")
+vim.keymap.set("n", "<leader>fg", "<cmd>Telescope live_grep<cr>")
+vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<cr>")
+vim.keymap.set("n", "<leader>t", "<cmd>ToggleTerm<cr>")
+vim.keymap.set("n", "<leader>gg", "<cmd>LazyGit<cr>")
