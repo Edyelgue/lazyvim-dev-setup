@@ -8,6 +8,7 @@ Setup completo para desenvolvimento com:
 - C# (.NET)
 - Java (Spring Boot)
 - lazygit
+- curl
 
 ## 📦 Instalação
 
