@@ -12,3 +12,7 @@ Setup completo para desenvolvimento com:
 
 ```bash
 git clone https://github.com/Edyelgue/lazyvim-dev-setup
+
+
+nvim
+:MasonInstall intelephense php-cs-fixer phpstan typescript-language-server prettier eslint-lsp lua-language-server bash-language-server json-lsp yaml-language-server sqls dockerfile-language-server docker-compose-language-service shfmt shellcheck
