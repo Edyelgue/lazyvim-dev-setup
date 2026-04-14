@@ -9,6 +9,7 @@ Setup completo para desenvolvimento com:
 - Java (Spring Boot)
 - lazygit
 - curl
+- fd
 
 ## 📦 Instalação
 
