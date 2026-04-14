@@ -7,6 +7,7 @@ Setup completo para desenvolvimento com:
 - Python
 - C# (.NET)
 - Java (Spring Boot)
+- lazygit
 
 ## 📦 Instalação
 
