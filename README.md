@@ -105,7 +105,15 @@ scoop install dotnet-sdk
 
 ---
 
-### 12. Nerd Font
+### 12. Golang (necessário para sqls)
+
+```powershell
+scoop install go
+```
+
+---
+
+### 13. Nerd Font
 
 ```powershell
 scoop install CascadiaCode-NF
@@ -137,10 +145,10 @@ Após abrir o Neovim, execute:
 :Mason
 ```
 
-### Instalar todos os LSPs manualmente
+### Instalar todos os LSPs
 
 ```vim
-:MasonInstall intelephense phpactor tailwindcss-language-server emmet-ls eslint-lsp tsserver pyright jdtls omnisharp
+:MasonInstall intelephense phpactor tailwindcss-language-server emmet-ls eslint-lsp tsserver pyright jdtls omnisharp sqls
 ```
 
 ---
@@ -171,6 +179,10 @@ Após abrir o Neovim, execute:
 
 * jdtls
 
+### 🗄️ SQL
+
+* sqls (requer Go)
+
 ---
 
 ## 🔍 Pós-instalação
@@ -187,21 +199,23 @@ Dentro do Neovim:
 
 ## 📊 Resumo das Dependências
 
-| Ferramenta | Uso                   |
-| ---------- | --------------------- |
-| Neovim     | Editor                |
-| Git        | Plugins               |
-| ripgrep    | Busca                 |
-| fd         | Navegação de arquivos |
-| gcc        | Compilação Treesitter |
-| nodejs     | LSPs JS               |
-| python     | Plugins               |
-| php        | Backend Laravel       |
-| composer   | Gerenciador PHP       |
-| java       | Backend Spring        |
-| dotnet     | Backend C#            |
-| lazygit    | Git UI                |
-| fzf        | Fuzzy finder          |
+| Ferramenta | Uso                  |
+| ---------- | -------------------- |
+| Neovim     | Editor               |
+| Git        | Plugins              |
+| ripgrep    | Busca                |
+| fd         | Navegação            |
+| gcc        | Treesitter           |
+| nodejs     | LSP JS               |
+| python     | Plugins              |
+| php        | Backend              |
+| composer   | Dependências PHP     |
+| java       | Spring               |
+| dotnet     | C#                   |
+| go         | Necessário para sqls |
+| lazygit    | Git UI               |
+| fzf        | Busca                |
+| sqls       | LSP SQL              |
 
 ---
 
@@ -209,7 +223,8 @@ Dentro do Neovim:
 
 * LSPs são gerenciados automaticamente pelo Mason
 * Plugins ficam em `lua/plugins/`
-* Configurações personalizadas podem ser ajustadas conforme necessidade
+* `sqls` suporta MySQL, PostgreSQL, SQL Server, etc
+* Necessário configurar conexão via `.sqls.yml`
 
 ---
 
